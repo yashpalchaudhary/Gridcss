@@ -45,6 +45,6 @@ This is a demo project of Bootstrap Grid.
 
 This is a demo project of Bootstrap Grid.
 
-## 📸 Screenshot
+## 📸 This is newPaper template screenshot
 
-![Grid Example](images/grid-screenshot.png)
+![Grid Example](https://raw.githubusercontent.com/yashpalchaudhary/Gridcss/refs/heads/grid-css-full-template/Newspaper/image/Screenshot%202025-07-19%20125030.png)
