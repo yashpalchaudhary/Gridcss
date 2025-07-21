@@ -24,7 +24,7 @@ Yeh project CSS Grid Layout ka use karke banaya gaya hai jisme ek responsive aur
 
 ## 🧩 Layout Features
 - Multi-column responsive layout
-- Gap between items using `gap`
+- Gap between items using `gap` 
 - Auto adjustment of items based on screen size
 - Clean and minimalistic UI
 
@@ -34,3 +34,17 @@ grid-css-project/
 ├── index.html # Main HTML file
 ├── style.css # CSS file with Grid layout
 └── README.md # Project documentation
+
+# My Project
+
+This is a demo project of Bootstrap Grid.
+
+## 📸 Screenshot
+
+![Grid Example](# My Project
+
+This is a demo project of Bootstrap Grid.
+
+## 📸 Screenshot
+
+![Grid Example](images/grid-screenshot.png)
