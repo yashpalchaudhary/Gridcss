@@ -15,8 +15,8 @@ body {
 
 
 .header {
-    height: 70px;
-    width: 84%;
+    width: 121%;
+    height: 60px;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -101,14 +101,14 @@ hr {
 .myself {
     padding: 20px 100px 0 180px;
     line-height: 22px;
-} 
+}
 
 
-.footer{
+.footer {
     padding-left: 180px;
     margin-top: 110px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 39px;
     height: 216px;
 }
@@ -119,43 +119,43 @@ hr {
     margin-top: 20px;
 }
 
-.powered{
+.powered {
     margin-top: 20px;
 }
 
 
-.photo{
+.photo {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 111px;
     gap: 15px;
     margin-top: 20px;
 }
 
-.nunc{
+.nunc {
     margin-top: 6px;
 }
 
-.sed{
+.sed {
     width: 130px;
 }
 
-.travel{
+.travel {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 14px;
 }
 
-.new{
+.new {
     width: 45px;
     font-size: 12px;
     color: #fff !important;
     background-color: #616161 !important;
 }
 
-.tra{
- background: black;
- color: white;
- width: 52px;
- text-align: center;
+.tra {
+    background: black;
+    color: white;
+    width: 52px;
+    text-align: center;
 }

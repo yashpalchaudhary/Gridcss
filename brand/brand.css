@@ -160,7 +160,7 @@
 .new {
     background-color: white;
     color: black;
-    width: 267px;
+    width: 246px;
     height: 371px;
     line-height: 25px;
 }
@@ -181,59 +181,67 @@
 
 .log {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 200px;
+    grid-template-columns: 250px 250px 250px;
+    gap: 9px;
 }
+
 
 .boxs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 350px;
+    grid-template-columns: 1fr 1fr;
+    gap: 285px;
+    padding: 20px
 }
+
+.box1 {
+    display: grid;
+    width: 192px;
+}
+
+
+.chicago {
+    display: grid;
+    grid-template-columns: 30px auto;
+}
+
+/* Icons in left column */
+.chicago i {
+    font-size: 18px;
+}
+
 
 .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 230px;
-    height: 35px;
 }
-
-
-
-.chicago{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    display: block;
-    gap: 20px;
-}
-
 
 .hold {
-    width: 196px;
     padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-
 
 .holder {
-    width: 411px;
-    height: 39px;
-    margin-top: 15px;
-    padding-left: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 4px;
 }
-
 
 .sen {
     background-color: black;
     color: white;
-    width: 79px;
-    padding-left: 24px;
-    padding-top: 9px;
-    font-size: 18px;
-    height: 36px;
+    width: 81px;
     justify-self: end;
-    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
+
 
 .img {
     margin-top: 20px;
@@ -249,8 +257,4 @@
 .power {
     padding-top: 14px;
     padding-left: 20px;
-}
-
-.footer {
-    height: 250px;
 }

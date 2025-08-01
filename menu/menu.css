@@ -1,66 +1,44 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.header {
+.header{
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 0 20px;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff !important;
+    background-color: #4d636f !important;
     height: 60px;
-    gap: 20px;
+    font-size: 18px !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-/* LOGO */
-.logo img {
-    height: 40px;
+.logo1{
+    text-align: end;
+    padding: 10px;
 }
 
-/* MENU BAR */
-.menu-bar {
-    display: flex;
-    list-style: none;
-    gap: 25px;
-    justify-content: center;
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 364px;
 }
 
-.menu-bar li {
-    cursor: pointer;
-    padding: 10px 15px;
-    transition: background-color 0.3s;
-}
 
-.menu-bar li:hover {
-    background-color: brown;
-    border-radius: 5px;
-}
-
-/* SEARCH BAR */
-.search {
-    display: flex;
+.loge{
+    display: grid;
+    grid-template-columns: 36px 8px;
     align-items: center;
-    gap: 5px;
+    padding-left: 21px;
 }
 
-.search input {
-    padding: 6px 10px;
-    border: none;
-    border-radius: 4px;
-    outline: none;
+.log {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    gap: 46px;
+    align-items: center;
 }
 
-.search button {
-    padding: 6px 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Font Awesome Icon */
-.search button i {
-    color: black;
-}
